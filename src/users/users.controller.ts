@@ -34,7 +34,7 @@ export class UsersController {
   // @UseGuards(AuthGuard)
   // whoAmI(@CurrentUser() user: User) {
   //   return user;
-  // }
+  // } deneme
 
   @Post('/signout')
   signOut(@Session() session: any) {
